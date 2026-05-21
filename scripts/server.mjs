@@ -304,33 +304,53 @@ function imageContentType(key, upstreamType) {
   return imageTypes[extension] || "application/octet-stream"
 }
 
+function localImagePathFromKey(key) {
+  if (key.startsWith("photos/original/")) {
+    const filename = key.replace(/^photos\/original\//, "")
+    if (!filename.includes("/") && !filename.includes("\\")) {
+      return join(uploadDir, filename)
+    }
+  }
+
+  if (key.startsWith("backgrounds/")) {
+    const filename = key.replace(/^backgrounds\//, "")
+    if (!filename.includes("/") && !filename.includes("\\")) {
+      return join(backgroundDir, filename)
+    }
+  }
+
+  return ""
+}
+
+function serveLocalImageFallback(key, response) {
+  const filePath = localImagePathFromKey(key)
+  if (!filePath || !existsSync(filePath) || statSync(filePath).isDirectory()) {
+    return false
+  }
+
+  response.writeHead(200, {
+    "Content-Type": imageContentType(key, ""),
+    "Content-Disposition": "inline",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+  })
+  createReadStream(filePath).pipe(response)
+  return true
+}
+
 async function serveOssImage(requestUrl, response) {
   const key = normalizeImageKey(requestUrl.searchParams.get("key") || requestUrl.searchParams.get("path"))
-  const style = String(requestUrl.searchParams.get("style") || "").trim()
 
   if (!key) {
     sendJson(response, { error: "Missing image key" }, 400)
     return
   }
 
-  const upstreamUrl = new URL(`${ossBaseUrl}/${key}`)
-  if (imageProcesses[style]) {
-    upstreamUrl.searchParams.set("x-oss-process", imageProcesses[style])
-  }
-
-  const upstream = await fetch(upstreamUrl, { headers: { Referer: ossReferer } })
-  if (!upstream.ok) {
-    sendJson(response, { error: "Unable to load image" }, upstream.status)
+  if (serveLocalImageFallback(key, response)) {
     return
   }
 
-  response.writeHead(200, {
-    "Content-Type": imageContentType(key, upstream.headers.get("content-type") || ""),
-    "Content-Disposition": "inline",
-    "Cache-Control": "public, max-age=31536000, immutable",
-    "X-Content-Type-Options": "nosniff",
-  })
-  response.end(Buffer.from(await upstream.arrayBuffer()))
+  sendJson(response, { error: "Local image not found" }, 404)
 }
 
 function adminHtml() {
