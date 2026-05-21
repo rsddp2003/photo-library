@@ -136,6 +136,7 @@ export default function App() {
   const libraryRef = useRef<HTMLElement>(null)
   const backgroundSignatureRef = useRef("")
   const backgroundFadeTimerRef = useRef<number | null>(null)
+  const menuAnchorFrameRef = useRef<number | null>(null)
   const [years, setYears] = useState<YearGroup[]>(fallbackYears)
   const [backgroundConfig, setBackgroundConfig] = useState<BackgroundConfig>({
     intervalMinutes: 3,
@@ -311,30 +312,55 @@ export default function App() {
     ))
   }, [])
 
-  useLayoutEffect(() => {
-    let frame = 0
-
-    const scheduleMenuAnchorUpdate = () => {
-      window.cancelAnimationFrame(frame)
-      frame = window.requestAnimationFrame(updateMenuAnchors)
+  const scheduleMenuAnchorUpdate = useCallback(() => {
+    if (menuAnchorFrameRef.current) {
+      window.cancelAnimationFrame(menuAnchorFrameRef.current)
     }
 
-    scheduleMenuAnchorUpdate()
-    const libraryElement = libraryRef.current
-    if (libraryElement) {
-      libraryElement.addEventListener("transitionend", scheduleMenuAnchorUpdate)
-    }
-    window.addEventListener("resize", scheduleMenuAnchorUpdate)
-    return () => {
-      window.cancelAnimationFrame(frame)
-      libraryElement?.removeEventListener("transitionend", scheduleMenuAnchorUpdate)
-      window.removeEventListener("resize", scheduleMenuAnchorUpdate)
-    }
+    menuAnchorFrameRef.current = window.requestAnimationFrame(() => {
+      menuAnchorFrameRef.current = window.requestAnimationFrame(() => {
+        updateMenuAnchors()
+        menuAnchorFrameRef.current = null
+      })
+    })
   }, [updateMenuAnchors])
 
   useLayoutEffect(() => {
-    updateMenuAnchors()
-  }, [selectedYear, selectedLocation, updateMenuAnchors])
+    scheduleMenuAnchorUpdate()
+    const libraryElement = libraryRef.current
+    const observer = new ResizeObserver(scheduleMenuAnchorUpdate)
+    if (libraryElement) {
+      libraryElement.addEventListener("transitionend", scheduleMenuAnchorUpdate)
+      observer.observe(libraryElement)
+    }
+    window.addEventListener("resize", scheduleMenuAnchorUpdate)
+    return () => {
+      if (menuAnchorFrameRef.current) {
+        window.cancelAnimationFrame(menuAnchorFrameRef.current)
+        menuAnchorFrameRef.current = null
+      }
+      observer.disconnect()
+      libraryElement?.removeEventListener("transitionend", scheduleMenuAnchorUpdate)
+      window.removeEventListener("resize", scheduleMenuAnchorUpdate)
+    }
+  }, [scheduleMenuAnchorUpdate])
+
+  useLayoutEffect(() => {
+    scheduleMenuAnchorUpdate()
+  }, [
+    activeLocations.length,
+    activePhotos.length,
+    arrangedPhotoColumns.length,
+    backgroundsLoaded,
+    selectedLocation,
+    selectedYear,
+    scheduleMenuAnchorUpdate,
+    visibleYears.length,
+  ])
+
+  useEffect(() => {
+    document.fonts?.ready.then(scheduleMenuAnchorUpdate).catch(() => undefined)
+  }, [scheduleMenuAnchorUpdate])
 
   const photoDate = formatMonthDay(activePhotos[0]?.date)
   const viewTitle = selectedLocation ? activeLocation?.name || "Location" : selectedYear ? `${selectedYear}` : "Photo Library"
@@ -451,7 +477,7 @@ export default function App() {
               const count = getPhotoCount(year)
               return (
                 <button className="folder-card" key={year.year} onClick={() => setSelectedYear(year.year)}>
-                  {cover ? <img src={getThumbUrl(cover)} alt="" /> : <span className="folder-empty"><CalendarDays size={34} /></span>}
+                  {cover ? <img src={getThumbUrl(cover)} alt="" onLoad={scheduleMenuAnchorUpdate} /> : <span className="folder-empty"><CalendarDays size={34} /></span>}
                   <strong>{year.year}</strong>
                   <small>{count ? `${count} photos` : "Empty folder"}</small>
                 </button>
@@ -469,7 +495,7 @@ export default function App() {
                 const dateLabel = formatMonthDay(sortedPhotos[0]?.date)
                 return (
                   <button className="folder-card" key={location.id} onClick={() => setSelectedLocation(location.id)}>
-                    {cover ? <img src={getThumbUrl(cover)} alt="" /> : <span className="folder-empty"><MapPin size={34} /></span>}
+                    {cover ? <img src={getThumbUrl(cover)} alt="" onLoad={scheduleMenuAnchorUpdate} /> : <span className="folder-empty"><MapPin size={34} /></span>}
                     <strong>{location.name}</strong>
                     <small>{dateLabel ? `${dateLabel} · ` : ""}{location.photos.length} photos</small>
                   </button>
@@ -496,7 +522,7 @@ export default function App() {
                       style={{ aspectRatio: `${photo.width || 4} / ${photo.height || 3}` }}
                       onClick={() => setFullscreenIndex(photo.originalIndex)}
                     >
-                      <img src={getThumbUrl(getPhotoImagePath(photo))} alt="" loading="lazy" />
+                      <img src={getThumbUrl(getPhotoImagePath(photo))} alt="" loading="lazy" onLoad={scheduleMenuAnchorUpdate} />
                     </figure>
                   ))}
                 </div>
