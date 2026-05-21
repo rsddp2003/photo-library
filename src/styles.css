@@ -126,6 +126,11 @@ a {
   background: transparent;
 }
 
+.library-shell[data-view="years"] {
+  height: auto;
+  min-height: 0;
+}
+
 .library-shell[data-view="photos"] {
   width: min(86vw, 124.8vh, 1280px);
   height: auto;

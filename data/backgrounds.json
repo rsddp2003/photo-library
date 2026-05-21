@@ -1,108 +1,132 @@
 {
   "intervalMinutes": 3,
-  "currentIndex": 6,
+  "currentIndex": 4,
   "images": [
     {
       "id": "background-mpdkdwjg-uwoi2t",
       "name": "19_德令哈柏树山+海子纪念馆_20250731.JPG",
       "url": "/backgrounds/background-mpdkdwjg-uwoi2t.jpg",
-      "createdAt": "2026-05-20T04:31:09.822Z"
+      "createdAt": "2026-05-20T04:31:09.822Z",
+      "objectKey": "backgrounds/background-mpdkdwjg-uwoi2t.jpg"
     },
     {
       "id": "background-mpdkdwjv-d77mpf",
       "name": "16_德令哈柏树山+海子纪念馆_20250731.JPG",
       "url": "/backgrounds/background-mpdkdwjv-d77mpf.jpg",
-      "createdAt": "2026-05-20T04:31:09.837Z"
+      "createdAt": "2026-05-20T04:31:09.837Z",
+      "objectKey": "backgrounds/background-mpdkdwjv-d77mpf.jpg"
     },
     {
       "id": "background-mpdkdwkd-qcyikg",
       "name": "3_德令哈柏树山+海子纪念馆_20250731.JPG",
       "url": "/backgrounds/background-mpdkdwkd-qcyikg.jpg",
-      "createdAt": "2026-05-20T04:31:09.856Z"
+      "createdAt": "2026-05-20T04:31:09.856Z",
+      "objectKey": "backgrounds/background-mpdkdwkd-qcyikg.jpg"
     },
     {
       "id": "background-mpdkek25-qp4vl9",
       "name": "14_青海湖二郎剑_20250801.JPG",
       "url": "/backgrounds/background-mpdkek25-qp4vl9.jpg",
-      "createdAt": "2026-05-20T04:31:40.304Z"
+      "createdAt": "2026-05-20T04:31:40.304Z",
+      "objectKey": "backgrounds/background-mpdkek25-qp4vl9.jpg"
     },
     {
       "id": "background-mpdkek2m-ruc2al",
       "name": "13_青海湖二郎剑_20250801.JPG",
       "url": "/backgrounds/background-mpdkek2m-ruc2al.jpg",
-      "createdAt": "2026-05-20T04:31:40.320Z"
+      "createdAt": "2026-05-20T04:31:40.320Z",
+      "objectKey": "backgrounds/background-mpdkek2m-ruc2al.jpg"
     },
     {
       "id": "background-mpdkf1il-pxw0uc",
       "name": "12_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
       "url": "/backgrounds/background-mpdkf1il-pxw0uc.jpg",
-      "createdAt": "2026-05-20T04:32:02.930Z"
+      "createdAt": "2026-05-20T04:32:02.930Z",
+      "objectKey": "backgrounds/background-mpdkf1il-pxw0uc.jpg"
     },
     {
       "id": "background-mpdkgcpt-bgbeqa",
       "name": "18_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
       "url": "/backgrounds/background-mpdkgcpt-bgbeqa.jpg",
-      "createdAt": "2026-05-20T04:33:04.101Z"
+      "createdAt": "2026-05-20T04:33:04.101Z",
+      "objectKey": "backgrounds/background-mpdkgcpt-bgbeqa.jpg"
     },
     {
       "id": "background-mpdkgcqq-brvtjr",
       "name": "23_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
       "url": "/backgrounds/background-mpdkgcqq-brvtjr.jpg",
-      "createdAt": "2026-05-20T04:33:04.135Z"
+      "createdAt": "2026-05-20T04:33:04.135Z",
+      "objectKey": "backgrounds/background-mpdkgcqq-brvtjr.jpg"
     },
     {
       "id": "background-mpdkh5sd-0f20f3",
       "name": "13_航拍+德令哈柏树山+光电塔_20250731.JPG",
       "url": "/backgrounds/background-mpdkh5sd-0f20f3.jpg",
-      "createdAt": "2026-05-20T04:33:41.778Z"
+      "createdAt": "2026-05-20T04:33:41.778Z",
+      "objectKey": "backgrounds/background-mpdkh5sd-0f20f3.jpg"
     },
     {
       "id": "background-mpdkhqzz-nlfy91",
       "name": "1_航拍+青海湖二郎剑_20250801.JPG",
       "url": "/backgrounds/background-mpdkhqzz-nlfy91.jpg",
-      "createdAt": "2026-05-20T04:34:09.267Z"
+      "createdAt": "2026-05-20T04:34:09.267Z",
+      "objectKey": "backgrounds/background-mpdkhqzz-nlfy91.jpg"
     },
     {
       "id": "background-mpdkiurd-u82mcv",
       "name": "2_哈尔滨day1_20250102.JPG",
       "url": "/backgrounds/background-mpdkiurd-u82mcv.jpg",
-      "createdAt": "2026-05-20T04:35:00.794Z"
+      "createdAt": "2026-05-20T04:35:00.794Z",
+      "objectKey": "backgrounds/background-mpdkiurd-u82mcv.jpg"
     },
     {
       "id": "background-mpdkiurp-y186uo",
       "name": "4_哈尔滨day1_20250102.JPG",
       "url": "/backgrounds/background-mpdkiurp-y186uo.jpg",
-      "createdAt": "2026-05-20T04:35:00.806Z"
+      "createdAt": "2026-05-20T04:35:00.806Z",
+      "objectKey": "backgrounds/background-mpdkiurp-y186uo.jpg"
     },
     {
       "id": "background-mpdkjmwc-mzm89a",
       "name": "1_赛里木湖day2_20241119.JPG",
       "url": "/backgrounds/background-mpdkjmwc-mzm89a.jpg",
-      "createdAt": "2026-05-20T04:35:37.262Z"
+      "createdAt": "2026-05-20T04:35:37.262Z",
+      "objectKey": "backgrounds/background-mpdkjmwc-mzm89a.jpg"
     },
     {
       "id": "background-mpdkjmww-ssld53",
       "name": "19_赛里木湖day1_20241118.JPG",
       "url": "/backgrounds/background-mpdkjmww-ssld53.jpg",
-      "createdAt": "2026-05-20T04:35:37.282Z"
+      "createdAt": "2026-05-20T04:35:37.282Z",
+      "objectKey": "backgrounds/background-mpdkjmww-ssld53.jpg"
     },
     {
       "id": "background-mpdkjmxh-tzdyim",
       "name": "21_赛里木湖day2_20241119.JPG",
       "url": "/backgrounds/background-mpdkjmxh-tzdyim.jpg",
-      "createdAt": "2026-05-20T04:35:37.305Z"
+      "createdAt": "2026-05-20T04:35:37.305Z",
+      "objectKey": "backgrounds/background-mpdkjmxh-tzdyim.jpg"
     },
     {
       "id": "background-mpdkjmy7-20i373",
       "name": "32_赛里木湖day1_20241118.JPG",
       "url": "/backgrounds/background-mpdkjmy7-20i373.jpg",
-      "createdAt": "2026-05-20T04:35:37.329Z"
+      "createdAt": "2026-05-20T04:35:37.329Z",
+      "objectKey": "backgrounds/background-mpdkjmy7-20i373.jpg"
     },
     {
       "id": "background-mpdkju9w-2ot2nv",
       "name": "morning-5.JPG",
       "url": "/backgrounds/background-mpdkju9w-2ot2nv.jpg",
-      "createdAt": "2026-05-20T04:35:46.822Z"
+      "createdAt": "2026-05-20T04:35:46.822Z",
+      "objectKey": "backgrounds/background-mpdkju9w-2ot2nv.jpg"
+    },
+    {
+      "id": "background-mpfe1vnm-j89v27",
+      "name": "2560-1600尺寸-1.jpg",
+      "url": "/backgrounds/background-mpfe1vnm-j89v27.jpg",
+      "objectKey": "backgrounds/background-mpfe1vnm-j89v27.jpg",
+      "createdAt": "2026-05-21T11:09:23.459Z"
     }
   ],
   "maskOpacity": 0.1

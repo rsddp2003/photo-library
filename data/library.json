@@ -158,11 +158,11 @@
               "objectKey": "photos/original/photo-mpc2tsm7-nbjrvg.jpg"
             }
           ],
-          "sortStatus": "sorted"
+          "sortStatus": "sorting"
         },
         {
           "id": "loc-mpc7g66n-7s4ykl",
-          "name": "德天瀑布",
+          "name": "崇左 · 德天瀑布",
           "photos": [
             {
               "id": "photo-mpc7g6ve-2fumpa",
@@ -305,7 +305,137 @@
               "objectKey": "photos/original/photo-mpc7g6af-40ge3u.jpg"
             }
           ],
+          "sortStatus": "sorting"
+        },
+        {
+          "id": "loc-mpfdw3s3-4wnbnx",
+          "name": "珠海",
+          "photos": [
+            {
+              "id": "photo-mpfdw3si-hjlazu",
+              "name": "5_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw3si-hjlazu.jpg",
+              "objectKey": "photos/original/photo-mpfdw3si-hjlazu.jpg",
+              "date": "2026-01-09",
+              "width": 4024,
+              "height": 6048,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdw3wq-xupovo",
+              "name": "14_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw3wq-xupovo.jpg",
+              "objectKey": "photos/original/photo-mpfdw3wq-xupovo.jpg",
+              "date": "2026-01-09",
+              "width": 5765,
+              "height": 3836,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdw3uh-swti3z",
+              "name": "3_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw3uh-swti3z.jpg",
+              "objectKey": "photos/original/photo-mpfdw3uh-swti3z.jpg",
+              "date": "2026-01-09",
+              "width": 5783,
+              "height": 3848,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdw41l-r8rrkn",
+              "name": "35_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw41l-r8rrkn.jpg",
+              "objectKey": "photos/original/photo-mpfdw41l-r8rrkn.jpg",
+              "date": "2026-01-09",
+              "width": 4024,
+              "height": 6048,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfdw3yv-y2oi8i",
+              "name": "36_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw3yv-y2oi8i.jpg",
+              "objectKey": "photos/original/photo-mpfdw3yv-y2oi8i.jpg",
+              "date": "2026-01-09",
+              "width": 3566,
+              "height": 5359,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfdw46d-ljq094",
+              "name": "42_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw46d-ljq094.jpg",
+              "objectKey": "photos/original/photo-mpfdw46d-ljq094.jpg",
+              "date": "2026-01-09",
+              "width": 4024,
+              "height": 6048,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfdw43q-kfzrqz",
+              "name": "41_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw43q-kfzrqz.jpg",
+              "objectKey": "photos/original/photo-mpfdw43q-kfzrqz.jpg",
+              "date": "2026-01-09",
+              "width": 4024,
+              "height": 6048,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdw4a6-hgx2ss",
+              "name": "40_珠海_20260109.JPG",
+              "url": "/uploads/photo-mpfdw4a6-hgx2ss.jpg",
+              "objectKey": "photos/original/photo-mpfdw4a6-hgx2ss.jpg",
+              "date": "2026-01-09",
+              "width": 3910,
+              "height": 5876,
+              "sortIndex": 7
+            }
+          ],
           "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdxzwy-p431le",
+          "name": "崇左 · 峒那屿湾 & 明仕田园",
+          "photos": [
+            {
+              "id": "photo-mpfdxzxg-vqsv3o",
+              "name": "4_峒那屿湾+明仕田园_20260404.JPG",
+              "url": "/uploads/photo-mpfdxzxg-vqsv3o.jpg",
+              "objectKey": "photos/original/photo-mpfdxzxg-vqsv3o.jpg",
+              "date": "2026-04-04",
+              "width": 3494,
+              "height": 5251
+            },
+            {
+              "id": "photo-mpfdxzzr-5vkyrs",
+              "name": "10_峒那屿湾+明仕田园_20260404.JPG",
+              "url": "/uploads/photo-mpfdxzzr-5vkyrs.jpg",
+              "objectKey": "photos/original/photo-mpfdxzzr-5vkyrs.jpg",
+              "date": "2026-04-04",
+              "width": 6048,
+              "height": 4024
+            },
+            {
+              "id": "photo-mpfdy02e-v86gv2",
+              "name": "24_峒那屿湾+明仕田园_20260404.JPG",
+              "url": "/uploads/photo-mpfdy02e-v86gv2.jpg",
+              "objectKey": "photos/original/photo-mpfdy02e-v86gv2.jpg",
+              "date": "2026-04-04",
+              "width": 4024,
+              "height": 6048
+            },
+            {
+              "id": "photo-mpfdy059-xolnig",
+              "name": "23_峒那屿湾+明仕田园_20260404.JPG",
+              "url": "/uploads/photo-mpfdy059-xolnig.jpg",
+              "objectKey": "photos/original/photo-mpfdy059-xolnig.jpg",
+              "date": "2026-04-04",
+              "width": 6048,
+              "height": 4024
+            }
+          ],
+          "sortStatus": "sorting"
         }
       ]
     },
@@ -478,74 +608,34 @@
           "name": "门源 & 张掖",
           "photos": [
             {
-              "id": "photo-mpdi749v-cqvzkk",
-              "name": "1_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi749v-cqvzkk.jpg",
+              "id": "photo-mpfdenlx-jgnezz",
+              "name": "4_航拍+门源油菜花_20250725.JPG",
+              "url": "/uploads/photo-mpfdenlx-jgnezz.jpg",
+              "objectKey": "photos/original/photo-mpfdenlx-jgnezz.jpg",
               "date": "2025-07-25",
-              "width": 5568,
-              "height": 3712,
-              "sortIndex": 0,
-              "objectKey": "photos/original/photo-mpdi749v-cqvzkk.jpg"
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 0
             },
             {
-              "id": "photo-mpdi74lk-dla16i",
-              "name": "9_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi74lk-dla16i.jpg",
+              "id": "photo-mpfdendd-oopmbx",
+              "name": "5_航拍+门源油菜花_20250725.JPG",
+              "url": "/uploads/photo-mpfdendd-oopmbx.jpg",
+              "objectKey": "photos/original/photo-mpfdendd-oopmbx.jpg",
               "date": "2025-07-25",
-              "width": 5568,
-              "height": 3712,
-              "sortIndex": 1,
-              "objectKey": "photos/original/photo-mpdi74lk-dla16i.jpg"
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 1
             },
             {
-              "id": "photo-mpdi74uu-umxu2g",
-              "name": "10_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi74uu-umxu2g.jpg",
+              "id": "photo-mpfdenrj-pw0zw7",
+              "name": "3_航拍+门源油菜花_20250725.JPG",
+              "url": "/uploads/photo-mpfdenrj-pw0zw7.jpg",
+              "objectKey": "photos/original/photo-mpfdenrj-pw0zw7.jpg",
               "date": "2025-07-25",
-              "width": 5568,
-              "height": 3712,
-              "sortIndex": 2,
-              "objectKey": "photos/original/photo-mpdi74uu-umxu2g.jpg"
-            },
-            {
-              "id": "photo-mpdi74j9-ko1j7b",
-              "name": "11_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi74j9-ko1j7b.jpg",
-              "date": "2025-07-25",
-              "width": 5568,
-              "height": 3712,
-              "sortIndex": 3,
-              "objectKey": "photos/original/photo-mpdi74j9-ko1j7b.jpg"
-            },
-            {
-              "id": "photo-mpdi74sc-zklmcz",
-              "name": "12_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi74sc-zklmcz.jpg",
-              "date": "2025-07-25",
-              "width": 3712,
-              "height": 5568,
-              "sortIndex": 4,
-              "objectKey": "photos/original/photo-mpdi74sc-zklmcz.jpg"
-            },
-            {
-              "id": "photo-mpdi74nb-uj9uh1",
-              "name": "2_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi74nb-uj9uh1.jpg",
-              "date": "2025-07-25",
-              "width": 3595,
-              "height": 5393,
-              "sortIndex": 5,
-              "objectKey": "photos/original/photo-mpdi74nb-uj9uh1.jpg"
-            },
-            {
-              "id": "photo-mpdi74p8-hgt7wm",
-              "name": "3_门源+张掖七彩丹霞_20250725.JPG",
-              "url": "/uploads/photo-mpdi74p8-hgt7wm.jpg",
-              "date": "2025-07-25",
-              "width": 3595,
-              "height": 5393,
-              "sortIndex": 6,
-              "objectKey": "photos/original/photo-mpdi74p8-hgt7wm.jpg"
+              "width": 7621,
+              "height": 4287,
+              "sortIndex": 2
             },
             {
               "id": "photo-mpdi74gb-0gfpli",
@@ -554,8 +644,8 @@
               "date": "2025-07-25",
               "width": 3647,
               "height": 5470,
-              "sortIndex": 7,
-              "objectKey": "photos/original/photo-mpdi74gb-0gfpli.jpg"
+              "objectKey": "photos/original/photo-mpdi74gb-0gfpli.jpg",
+              "sortIndex": 3
             },
             {
               "id": "photo-mpdi74d7-ichcay",
@@ -564,8 +654,78 @@
               "date": "2025-07-25",
               "width": 5470,
               "height": 3647,
-              "sortIndex": 8,
-              "objectKey": "photos/original/photo-mpdi74d7-ichcay.jpg"
+              "objectKey": "photos/original/photo-mpdi74d7-ichcay.jpg",
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpdi74p8-hgt7wm",
+              "name": "3_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi74p8-hgt7wm.jpg",
+              "date": "2025-07-25",
+              "width": 3595,
+              "height": 5393,
+              "objectKey": "photos/original/photo-mpdi74p8-hgt7wm.jpg",
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpdi74nb-uj9uh1",
+              "name": "2_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi74nb-uj9uh1.jpg",
+              "date": "2025-07-25",
+              "width": 3595,
+              "height": 5393,
+              "objectKey": "photos/original/photo-mpdi74nb-uj9uh1.jpg",
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpdi749v-cqvzkk",
+              "name": "1_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi749v-cqvzkk.jpg",
+              "date": "2025-07-25",
+              "width": 5568,
+              "height": 3712,
+              "objectKey": "photos/original/photo-mpdi749v-cqvzkk.jpg",
+              "sortIndex": 7
+            },
+            {
+              "id": "photo-mpdi74lk-dla16i",
+              "name": "9_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi74lk-dla16i.jpg",
+              "date": "2025-07-25",
+              "width": 5568,
+              "height": 3712,
+              "objectKey": "photos/original/photo-mpdi74lk-dla16i.jpg",
+              "sortIndex": 8
+            },
+            {
+              "id": "photo-mpdi74uu-umxu2g",
+              "name": "10_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi74uu-umxu2g.jpg",
+              "date": "2025-07-25",
+              "width": 5568,
+              "height": 3712,
+              "objectKey": "photos/original/photo-mpdi74uu-umxu2g.jpg",
+              "sortIndex": 9
+            },
+            {
+              "id": "photo-mpdi74j9-ko1j7b",
+              "name": "11_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi74j9-ko1j7b.jpg",
+              "date": "2025-07-25",
+              "width": 5568,
+              "height": 3712,
+              "objectKey": "photos/original/photo-mpdi74j9-ko1j7b.jpg",
+              "sortIndex": 10
+            },
+            {
+              "id": "photo-mpdi74sc-zklmcz",
+              "name": "12_门源+张掖七彩丹霞_20250725.JPG",
+              "url": "/uploads/photo-mpdi74sc-zklmcz.jpg",
+              "date": "2025-07-25",
+              "width": 3712,
+              "height": 5568,
+              "objectKey": "photos/original/photo-mpdi74sc-zklmcz.jpg",
+              "sortIndex": 11
             }
           ],
           "sortStatus": "sorted"
@@ -612,6 +772,889 @@
               "date": "2025-07-26",
               "width": 5035,
               "height": 3357,
+              "sortIndex": 3
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfd0g1q-o9yqih",
+          "name": "敦煌 · 鸣沙山月牙泉",
+          "photos": [
+            {
+              "id": "photo-mpfd0g23-riz5uw",
+              "name": "2_三个雕塑+鸣沙山_20250727.JPG",
+              "url": "/uploads/photo-mpfd0g23-riz5uw.jpg",
+              "objectKey": "photos/original/photo-mpfd0g23-riz5uw.jpg",
+              "date": "2025-07-27",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfd0g7d-0udrzr",
+              "name": "15_三个雕塑+鸣沙山_20250727.JPG",
+              "url": "/uploads/photo-mpfd0g7d-0udrzr.jpg",
+              "objectKey": "photos/original/photo-mpfd0g7d-0udrzr.jpg",
+              "date": "2025-07-27",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfd0g3q-hu5no8",
+              "name": "5_三个雕塑+鸣沙山_20250727.JPG",
+              "url": "/uploads/photo-mpfd0g3q-hu5no8.jpg",
+              "objectKey": "photos/original/photo-mpfd0g3q-hu5no8.jpg",
+              "date": "2025-07-27",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfd0g53-rs9ceh",
+              "name": "6_三个雕塑+鸣沙山_20250727.JPG",
+              "url": "/uploads/photo-mpfd0g53-rs9ceh.jpg",
+              "objectKey": "photos/original/photo-mpfd0g53-rs9ceh.jpg",
+              "date": "2025-07-27",
+              "width": 3309,
+              "height": 4964,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfd0g5u-60zk39",
+              "name": "11_三个雕塑+鸣沙山_20250727.JPG",
+              "url": "/uploads/photo-mpfd0g5u-60zk39.jpg",
+              "objectKey": "photos/original/photo-mpfd0g5u-60zk39.jpg",
+              "date": "2025-07-27",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfd0ga6-g19nvt",
+              "name": "4_三个雕塑+鸣沙山_20250727.JPG",
+              "url": "/uploads/photo-mpfd0ga6-g19nvt.jpg",
+              "objectKey": "photos/original/photo-mpfd0ga6-g19nvt.jpg",
+              "date": "2025-07-27",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfdg0ar-bib242",
+              "name": "1_航拍+嘉峪关到敦煌路上_20250727.JPG",
+              "url": "/uploads/photo-mpfdg0ar-bib242.jpg",
+              "objectKey": "photos/original/photo-mpfdg0ar-bib242.jpg",
+              "date": "2025-07-27",
+              "width": 7896,
+              "height": 4442,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdg01r-dwvxf8",
+              "name": "2_航拍+嘉峪关到敦煌路上_20250727.JPG",
+              "url": "/uploads/photo-mpfdg01r-dwvxf8.jpg",
+              "objectKey": "photos/original/photo-mpfdg01r-dwvxf8.jpg",
+              "date": "2025-07-27",
+              "width": 7896,
+              "height": 4442,
+              "sortIndex": 7
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfd2p9g-0kv9zp",
+          "name": "敦煌 & 冷湖 · 黑独山",
+          "photos": [
+            {
+              "id": "photo-mpfdgxio-ze8f52",
+              "name": "2_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+              "url": "/uploads/photo-mpfdgxio-ze8f52.jpg",
+              "objectKey": "photos/original/photo-mpfdgxio-ze8f52.jpg",
+              "date": "2025-07-28",
+              "width": 7853,
+              "height": 4417,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdgxq3-8hh6ve",
+              "name": "12_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+              "url": "/uploads/photo-mpfdgxq3-8hh6ve.jpg",
+              "objectKey": "photos/original/photo-mpfdgxq3-8hh6ve.jpg",
+              "date": "2025-07-28",
+              "width": 6467,
+              "height": 3638,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdgy5e-wqu9k4",
+              "name": "11_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+              "url": "/uploads/photo-mpfdgy5e-wqu9k4.jpg",
+              "objectKey": "photos/original/photo-mpfdgy5e-wqu9k4.jpg",
+              "date": "2025-07-28",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdgxxr-rujejg",
+              "name": "10_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+              "url": "/uploads/photo-mpfdgxxr-rujejg.jpg",
+              "objectKey": "photos/original/photo-mpfdgxxr-rujejg.jpg",
+              "date": "2025-07-28",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfd2pbb-buv9qz",
+              "name": "9_敦煌光电塔+黑独山+冷湖_20250728.JPG",
+              "url": "/uploads/photo-mpfd2pbb-buv9qz.jpg",
+              "objectKey": "photos/original/photo-mpfd2pbb-buv9qz.jpg",
+              "date": "2025-07-28",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfd2pg6-9lt5cv",
+              "name": "6_敦煌光电塔+黑独山+冷湖_20250728.JPG",
+              "url": "/uploads/photo-mpfd2pg6-9lt5cv.jpg",
+              "objectKey": "photos/original/photo-mpfd2pg6-9lt5cv.jpg",
+              "date": "2025-07-28",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfd2pdo-g93te0",
+              "name": "8_敦煌光电塔+黑独山+冷湖_20250728.JPG",
+              "url": "/uploads/photo-mpfd2pdo-g93te0.jpg",
+              "objectKey": "photos/original/photo-mpfd2pdo-g93te0.jpg",
+              "date": "2025-07-28",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdgxlw-hd7314",
+              "name": "6_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+              "url": "/uploads/photo-mpfdgxlw-hd7314.jpg",
+              "objectKey": "photos/original/photo-mpfdgxlw-hd7314.jpg",
+              "date": "2025-07-28",
+              "width": 6628,
+              "height": 3728,
+              "sortIndex": 7
+            },
+            {
+              "id": "photo-mpfdgyen-0u7nso",
+              "name": "4_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+              "url": "/uploads/photo-mpfdgyen-0u7nso.jpg",
+              "objectKey": "photos/original/photo-mpfdgyen-0u7nso.jpg",
+              "date": "2025-07-28",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 8
+            },
+            {
+              "id": "photo-mpfd2pjh-t87x97",
+              "name": "3_敦煌光电塔+黑独山+冷湖_20250728.JPG",
+              "url": "/uploads/photo-mpfd2pjh-t87x97.jpg",
+              "objectKey": "photos/original/photo-mpfd2pjh-t87x97.jpg",
+              "date": "2025-07-28",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 9
+            },
+            {
+              "id": "photo-mpfd2phn-fyf5wi",
+              "name": "5_敦煌光电塔+黑独山+冷湖_20250728.JPG",
+              "url": "/uploads/photo-mpfd2phn-fyf5wi.jpg",
+              "objectKey": "photos/original/photo-mpfd2phn-fyf5wi.jpg",
+              "date": "2025-07-28",
+              "width": 5177,
+              "height": 3451,
+              "sortIndex": 10
+            },
+            {
+              "id": "photo-mpfd2p9q-q969jp",
+              "name": "2_敦煌光电塔+黑独山+冷湖_20250728.JPG",
+              "url": "/uploads/photo-mpfd2p9q-q969jp.jpg",
+              "objectKey": "photos/original/photo-mpfd2p9q-q969jp.jpg",
+              "date": "2025-07-28",
+              "width": 3463,
+              "height": 5195,
+              "sortIndex": 11
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdb5mm-0e1w36",
+          "name": "冷湖镇 & 大柴旦",
+          "photos": [
+            {
+              "id": "photo-mpfdb5n0-0rtef0",
+              "name": "1_冷湖到大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdb5n0-0rtef0.jpg",
+              "objectKey": "photos/original/photo-mpfdb5n0-0rtef0.jpg",
+              "date": "2025-07-29",
+              "width": 5465,
+              "height": 3643,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdb5p2-bywfbo",
+              "name": "2_冷湖到大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdb5p2-bywfbo.jpg",
+              "objectKey": "photos/original/photo-mpfdb5p2-bywfbo.jpg",
+              "date": "2025-07-29",
+              "width": 3643,
+              "height": 5465,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdiqhe-8kyzlm",
+              "name": "15_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdiqhe-8kyzlm.jpg",
+              "objectKey": "photos/original/photo-mpfdiqhe-8kyzlm.jpg",
+              "date": "2025-07-29",
+              "width": 4378,
+              "height": 7783,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdb5ro-3kuvm1",
+              "name": "3_冷湖到大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdb5ro-3kuvm1.jpg",
+              "objectKey": "photos/original/photo-mpfdb5ro-3kuvm1.jpg",
+              "date": "2025-07-29",
+              "width": 3641,
+              "height": 5461,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfdiq6i-4je0mg",
+              "name": "25_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdiq6i-4je0mg.jpg",
+              "objectKey": "photos/original/photo-mpfdiq6i-4je0mg.jpg",
+              "date": "2025-07-29",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfdipy8-0wabvr",
+              "name": "20_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdipy8-0wabvr.jpg",
+              "objectKey": "photos/original/photo-mpfdipy8-0wabvr.jpg",
+              "date": "2025-07-29",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfdipnh-a5y40i",
+              "name": "18_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdipnh-a5y40i.jpg",
+              "objectKey": "photos/original/photo-mpfdipnh-a5y40i.jpg",
+              "date": "2025-07-29",
+              "width": 7469,
+              "height": 4201,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdiprz-8rihmo",
+              "name": "17_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdiprz-8rihmo.jpg",
+              "objectKey": "photos/original/photo-mpfdiprz-8rihmo.jpg",
+              "date": "2025-07-29",
+              "width": 7578,
+              "height": 4263,
+              "sortIndex": 7
+            },
+            {
+              "id": "photo-mpfdiqcf-sokgkw",
+              "name": "23_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdiqcf-sokgkw.jpg",
+              "objectKey": "photos/original/photo-mpfdiqcf-sokgkw.jpg",
+              "date": "2025-07-29",
+              "width": 7892,
+              "height": 4439,
+              "sortIndex": 8
+            },
+            {
+              "id": "photo-mpfdiq1t-te9bo3",
+              "name": "21_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdiq1t-te9bo3.jpg",
+              "objectKey": "photos/original/photo-mpfdiq1t-te9bo3.jpg",
+              "date": "2025-07-29",
+              "width": 7319,
+              "height": 4117,
+              "sortIndex": 9
+            },
+            {
+              "id": "photo-mpfdb5u0-xyu7t2",
+              "name": "4_冷湖到大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdb5u0-xyu7t2.jpg",
+              "objectKey": "photos/original/photo-mpfdb5u0-xyu7t2.jpg",
+              "date": "2025-07-29",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 10
+            },
+            {
+              "id": "photo-mpfdipij-crze0a",
+              "name": "7_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdipij-crze0a.jpg",
+              "objectKey": "photos/original/photo-mpfdipij-crze0a.jpg",
+              "date": "2025-07-29",
+              "width": 7792,
+              "height": 4383,
+              "sortIndex": 11
+            },
+            {
+              "id": "photo-mpfdipdp-fn75jm",
+              "name": "1_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+              "url": "/uploads/photo-mpfdipdp-fn75jm.jpg",
+              "objectKey": "photos/original/photo-mpfdipdp-fn75jm.jpg",
+              "date": "2025-07-29",
+              "width": 7488,
+              "height": 4212,
+              "sortIndex": 12
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdcmn1-rpj7cx",
+          "name": "德令哈",
+          "photos": [
+            {
+              "id": "photo-mpfdcn3w-67uz29",
+              "name": "20_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcn3w-67uz29.jpg",
+              "objectKey": "photos/original/photo-mpfdcn3w-67uz29.jpg",
+              "date": "2025-07-31",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdkgkz-s1hvuk",
+              "name": "13_航拍+德令哈柏树山+光电塔_20250731.JPG",
+              "url": "/uploads/photo-mpfdkgkz-s1hvuk.jpg",
+              "objectKey": "photos/original/photo-mpfdkgkz-s1hvuk.jpg",
+              "date": "2025-07-31",
+              "width": 7227,
+              "height": 4065,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdcmzv-r4fy4g",
+              "name": "18_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcmzv-r4fy4g.jpg",
+              "objectKey": "photos/original/photo-mpfdcmzv-r4fy4g.jpg",
+              "date": "2025-07-31",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdcmxv-wzrbf8",
+              "name": "15_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcmxv-wzrbf8.jpg",
+              "objectKey": "photos/original/photo-mpfdcmxv-wzrbf8.jpg",
+              "date": "2025-07-31",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfdcmqm-hovhxq",
+              "name": "3_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcmqm-hovhxq.jpg",
+              "objectKey": "photos/original/photo-mpfdcmqm-hovhxq.jpg",
+              "date": "2025-07-31",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfdcmng-9vwz54",
+              "name": "1_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcmng-9vwz54.jpg",
+              "objectKey": "photos/original/photo-mpfdcmng-9vwz54.jpg",
+              "date": "2025-07-31",
+              "width": 3497,
+              "height": 5245,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfdcmsz-tohv8e",
+              "name": "6_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcmsz-tohv8e.jpg",
+              "objectKey": "photos/original/photo-mpfdcmsz-tohv8e.jpg",
+              "date": "2025-07-31",
+              "width": 3497,
+              "height": 5245,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdkgug-bky7qb",
+              "name": "5_航拍+德令哈柏树山+光电塔_20250731.JPG",
+              "url": "/uploads/photo-mpfdkgug-bky7qb.jpg",
+              "objectKey": "photos/original/photo-mpfdkgug-bky7qb.jpg",
+              "date": "2025-07-31",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 7
+            },
+            {
+              "id": "photo-mpfdkgpd-rskx87",
+              "name": "3_航拍+德令哈柏树山+光电塔_20250731.JPG",
+              "url": "/uploads/photo-mpfdkgpd-rskx87.jpg",
+              "objectKey": "photos/original/photo-mpfdkgpd-rskx87.jpg",
+              "date": "2025-07-31",
+              "width": 8064,
+              "height": 4536,
+              "sortIndex": 8
+            },
+            {
+              "id": "photo-mpfdkgyg-lg6fq7",
+              "name": "9_航拍+德令哈柏树山+光电塔_20250731.JPG",
+              "url": "/uploads/photo-mpfdkgyg-lg6fq7.jpg",
+              "objectKey": "photos/original/photo-mpfdkgyg-lg6fq7.jpg",
+              "date": "2025-07-31",
+              "width": 7888,
+              "height": 4437,
+              "sortIndex": 9
+            },
+            {
+              "id": "photo-mpfdcn21-vh68s7",
+              "name": "19_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcn21-vh68s7.jpg",
+              "objectKey": "photos/original/photo-mpfdcn21-vh68s7.jpg",
+              "date": "2025-07-31",
+              "width": 5449,
+              "height": 3633,
+              "sortIndex": 10
+            },
+            {
+              "id": "photo-mpfdcn5y-uakexw",
+              "name": "9_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcn5y-uakexw.jpg",
+              "objectKey": "photos/original/photo-mpfdcn5y-uakexw.jpg",
+              "date": "2025-07-31",
+              "width": 5402,
+              "height": 3601,
+              "sortIndex": 11
+            },
+            {
+              "id": "photo-mpfdcmvp-2775aj",
+              "name": "10_德令哈柏树山+海子纪念馆_20250731.JPG",
+              "url": "/uploads/photo-mpfdcmvp-2775aj.jpg",
+              "objectKey": "photos/original/photo-mpfdcmvp-2775aj.jpg",
+              "date": "2025-07-31",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 12
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfddb2j-ep0b6j",
+          "name": "青海湖",
+          "photos": [
+            {
+              "id": "photo-mpfddb6q-btkd3j",
+              "name": "12_青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfddb6q-btkd3j.jpg",
+              "objectKey": "photos/original/photo-mpfddb6q-btkd3j.jpg",
+              "date": "2025-08-01",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfddb8y-9c1hjh",
+              "name": "13_青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfddb8y-9c1hjh.jpg",
+              "objectKey": "photos/original/photo-mpfddb8y-9c1hjh.jpg",
+              "date": "2025-08-01",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfddb4c-nahngk",
+              "name": "5_青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfddb4c-nahngk.jpg",
+              "objectKey": "photos/original/photo-mpfddb4c-nahngk.jpg",
+              "date": "2025-08-01",
+              "width": 4748,
+              "height": 3165,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfddb2u-vauzn2",
+              "name": "2_青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfddb2u-vauzn2.jpg",
+              "objectKey": "photos/original/photo-mpfddb2u-vauzn2.jpg",
+              "date": "2025-08-01",
+              "width": 3361,
+              "height": 5042,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfdl4k7-mk4qf1",
+              "name": "1_航拍+青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfdl4k7-mk4qf1.jpg",
+              "objectKey": "photos/original/photo-mpfdl4k7-mk4qf1.jpg",
+              "date": "2025-08-01",
+              "width": 7893,
+              "height": 4440,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfdl4ga-q6a7un",
+              "name": "3_航拍+青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfdl4ga-q6a7un.jpg",
+              "objectKey": "photos/original/photo-mpfdl4ga-q6a7un.jpg",
+              "date": "2025-08-01",
+              "width": 4536,
+              "height": 8064,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfddbc3-upv7mx",
+              "name": "14_青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfddbc3-upv7mx.jpg",
+              "objectKey": "photos/original/photo-mpfddbc3-upv7mx.jpg",
+              "date": "2025-08-01",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfddbea-2uku1v",
+              "name": "16_青海湖二郎剑_20250801.JPG",
+              "url": "/uploads/photo-mpfddbea-2uku1v.jpg",
+              "objectKey": "photos/original/photo-mpfddbea-2uku1v.jpg",
+              "date": "2025-08-01",
+              "width": 3601,
+              "height": 5402,
+              "sortIndex": 7
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdnipt-29zp22",
+          "name": "香港",
+          "photos": [
+            {
+              "id": "photo-mpfdnis3-yvgg81",
+              "name": "10_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnis3-yvgg81.jpg",
+              "objectKey": "photos/original/photo-mpfdnis3-yvgg81.jpg",
+              "date": "2025-10-01",
+              "width": 3345,
+              "height": 5017,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdnixl-v62vk8",
+              "name": "28_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnixl-v62vk8.jpg",
+              "objectKey": "photos/original/photo-mpfdnixl-v62vk8.jpg",
+              "date": "2025-10-01",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdniq2-eiok6r",
+              "name": "1_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdniq2-eiok6r.jpg",
+              "objectKey": "photos/original/photo-mpfdniq2-eiok6r.jpg",
+              "date": "2025-10-01",
+              "width": 4897,
+              "height": 3265,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdnj9v-x3167l",
+              "name": "2_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnj9v-x3167l.jpg",
+              "objectKey": "photos/original/photo-mpfdnj9v-x3167l.jpg",
+              "date": "2025-10-01",
+              "width": 3673,
+              "height": 5510,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfdnivf-lwje6l",
+              "name": "8_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnivf-lwje6l.jpg",
+              "objectKey": "photos/original/photo-mpfdnivf-lwje6l.jpg",
+              "date": "2025-10-01",
+              "width": 3349,
+              "height": 5023,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfdnj62-apdndw",
+              "name": "45_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnj62-apdndw.jpg",
+              "objectKey": "photos/original/photo-mpfdnj62-apdndw.jpg",
+              "date": "2025-10-01",
+              "width": 3712,
+              "height": 5568,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfdnj7f-maa92a",
+              "name": "52_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnj7f-maa92a.jpg",
+              "objectKey": "photos/original/photo-mpfdnj7f-maa92a.jpg",
+              "date": "2025-10-01",
+              "width": 5479,
+              "height": 3653,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdnj32-egy9o0",
+              "name": "36_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnj32-egy9o0.jpg",
+              "objectKey": "photos/original/photo-mpfdnj32-egy9o0.jpg",
+              "date": "2025-10-01",
+              "width": 4609,
+              "height": 3073,
+              "sortIndex": 7
+            },
+            {
+              "id": "photo-mpfdnj2d-hyma91",
+              "name": "37_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnj2d-hyma91.jpg",
+              "objectKey": "photos/original/photo-mpfdnj2d-hyma91.jpg",
+              "date": "2025-10-01",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 8
+            },
+            {
+              "id": "photo-mpfdnj0m-zdc6f8",
+              "name": "32_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdnj0m-zdc6f8.jpg",
+              "objectKey": "photos/original/photo-mpfdnj0m-zdc6f8.jpg",
+              "date": "2025-10-01",
+              "width": 5568,
+              "height": 3712,
+              "sortIndex": 9
+            },
+            {
+              "id": "photo-mpfdniu8-nrezdp",
+              "name": "19_香港+国庆节_20251001.JPG",
+              "url": "/uploads/photo-mpfdniu8-nrezdp.jpg",
+              "objectKey": "photos/original/photo-mpfdniu8-nrezdp.jpg",
+              "date": "2025-10-01",
+              "width": 5166,
+              "height": 3444,
+              "sortIndex": 10
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdoegl-wht3uu",
+          "name": "深圳 · 前海石公园",
+          "photos": [
+            {
+              "id": "photo-mpfdoeh2-2wuevg",
+              "name": "1_前海石公园_20251112.JPG",
+              "url": "/uploads/photo-mpfdoeh2-2wuevg.jpg",
+              "objectKey": "photos/original/photo-mpfdoeh2-2wuevg.jpg",
+              "date": "2025-11-12",
+              "width": 3324,
+              "height": 4996,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdoem7-rzpd98",
+              "name": "4_前海石公园_20251112.JPG",
+              "url": "/uploads/photo-mpfdoem7-rzpd98.jpg",
+              "objectKey": "photos/original/photo-mpfdoem7-rzpd98.jpg",
+              "date": "2025-11-12",
+              "width": 3835,
+              "height": 5764,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdoejr-j2dvst",
+              "name": "3_前海石公园_20251112.JPG",
+              "url": "/uploads/photo-mpfdoejr-j2dvst.jpg",
+              "objectKey": "photos/original/photo-mpfdoejr-j2dvst.jpg",
+              "date": "2025-11-12",
+              "width": 6020,
+              "height": 4005,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdoeo9-7ivyge",
+              "name": "5_前海石公园_20251112.JPG",
+              "url": "/uploads/photo-mpfdoeo9-7ivyge.jpg",
+              "objectKey": "photos/original/photo-mpfdoeo9-7ivyge.jpg",
+              "date": "2025-11-12",
+              "width": 6048,
+              "height": 4024,
+              "sortIndex": 3
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdq9sn-fjdtl8",
+          "name": "九寨沟",
+          "photos": [
+            {
+              "id": "photo-mpfdqa03-e17qqe",
+              "name": "19_九寨沟day1风景_20251206.JPG",
+              "url": "/uploads/photo-mpfdqa03-e17qqe.jpg",
+              "objectKey": "photos/original/photo-mpfdqa03-e17qqe.jpg",
+              "date": "2025-12-06",
+              "width": 6048,
+              "height": 4024,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdtdhg-pfdc6r",
+              "name": "2_九寨沟day2风景_20251207.JPG",
+              "url": "/uploads/photo-mpfdtdhg-pfdc6r.jpg",
+              "objectKey": "photos/original/photo-mpfdtdhg-pfdc6r.jpg",
+              "date": "2025-12-07",
+              "width": 6048,
+              "height": 4024,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdtdnx-62xqk0",
+              "name": "7_九寨沟day2风景_20251207.JPG",
+              "url": "/uploads/photo-mpfdtdnx-62xqk0.jpg",
+              "objectKey": "photos/original/photo-mpfdtdnx-62xqk0.jpg",
+              "date": "2025-12-07",
+              "width": 3190,
+              "height": 4794,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdq9u9-6cuysb",
+              "name": "12_九寨沟day1风景_20251206.JPG",
+              "url": "/uploads/photo-mpfdq9u9-6cuysb.jpg",
+              "objectKey": "photos/original/photo-mpfdq9u9-6cuysb.jpg",
+              "date": "2025-12-06",
+              "width": 3922,
+              "height": 5894,
+              "sortIndex": 3
+            },
+            {
+              "id": "photo-mpfdq9xu-ftj5e5",
+              "name": "16_九寨沟day1风景_20251206.JPG",
+              "url": "/uploads/photo-mpfdq9xu-ftj5e5.jpg",
+              "objectKey": "photos/original/photo-mpfdq9xu-ftj5e5.jpg",
+              "date": "2025-12-06",
+              "width": 5697,
+              "height": 3790,
+              "sortIndex": 4
+            },
+            {
+              "id": "photo-mpfdqa16-55i804",
+              "name": "17_九寨沟day1风景_20251206.JPG",
+              "url": "/uploads/photo-mpfdqa16-55i804.jpg",
+              "objectKey": "photos/original/photo-mpfdqa16-55i804.jpg",
+              "date": "2025-12-06",
+              "width": 3882,
+              "height": 5835,
+              "sortIndex": 5
+            },
+            {
+              "id": "photo-mpfdtdsn-trvbc1",
+              "name": "14_九寨沟day2风景_20251207.JPG",
+              "url": "/uploads/photo-mpfdtdsn-trvbc1.jpg",
+              "objectKey": "photos/original/photo-mpfdtdsn-trvbc1.jpg",
+              "date": "2025-12-07",
+              "width": 6048,
+              "height": 4024,
+              "sortIndex": 6
+            },
+            {
+              "id": "photo-mpfdq9w4-5ou67u",
+              "name": "15_九寨沟day1风景_20251206.JPG",
+              "url": "/uploads/photo-mpfdq9w4-5ou67u.jpg",
+              "objectKey": "photos/original/photo-mpfdq9w4-5ou67u.jpg",
+              "date": "2025-12-06",
+              "width": 6048,
+              "height": 4024,
+              "sortIndex": 7
+            },
+            {
+              "id": "photo-mpfdtdki-87htvw",
+              "name": "10_九寨沟day2风景_20251207.JPG",
+              "url": "/uploads/photo-mpfdtdki-87htvw.jpg",
+              "objectKey": "photos/original/photo-mpfdtdki-87htvw.jpg",
+              "date": "2025-12-07",
+              "width": 5372,
+              "height": 3574,
+              "sortIndex": 8
+            }
+          ],
+          "sortStatus": "sorted"
+        },
+        {
+          "id": "loc-mpfdvatk-0mi4w4",
+          "name": "深圳 · 笔架山公园",
+          "photos": [
+            {
+              "id": "photo-mpfdvavs-x9me5i",
+              "name": "4_笔架山公园_20251209.JPG",
+              "url": "/uploads/photo-mpfdvavs-x9me5i.jpg",
+              "objectKey": "photos/original/photo-mpfdvavs-x9me5i.jpg",
+              "date": "2025-12-09",
+              "width": 5208,
+              "height": 3465,
+              "sortIndex": 0
+            },
+            {
+              "id": "photo-mpfdvay5-vb6pgn",
+              "name": "8_笔架山公园_20251209.JPG",
+              "url": "/uploads/photo-mpfdvay5-vb6pgn.jpg",
+              "objectKey": "photos/original/photo-mpfdvay5-vb6pgn.jpg",
+              "date": "2025-12-09",
+              "width": 5612,
+              "height": 3734,
+              "sortIndex": 1
+            },
+            {
+              "id": "photo-mpfdvatw-6llx44",
+              "name": "2_笔架山公园_20251209.JPG",
+              "url": "/uploads/photo-mpfdvatw-6llx44.jpg",
+              "objectKey": "photos/original/photo-mpfdvatw-6llx44.jpg",
+              "date": "2025-12-09",
+              "width": 4751,
+              "height": 3161,
+              "sortIndex": 2
+            },
+            {
+              "id": "photo-mpfdvb0e-q0fdpl",
+              "name": "9_笔架山公园_20251209.JPG",
+              "url": "/uploads/photo-mpfdvb0e-q0fdpl.jpg",
+              "objectKey": "photos/original/photo-mpfdvb0e-q0fdpl.jpg",
+              "date": "2025-12-09",
+              "width": 6048,
+              "height": 4024,
               "sortIndex": 3
             }
           ],
