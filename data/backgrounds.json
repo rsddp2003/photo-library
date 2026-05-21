@@ -1,0 +1,109 @@
+{
+  "intervalMinutes": 3,
+  "currentIndex": 6,
+  "images": [
+    {
+      "id": "background-mpdkdwjg-uwoi2t",
+      "name": "19_德令哈柏树山+海子纪念馆_20250731.JPG",
+      "url": "/backgrounds/background-mpdkdwjg-uwoi2t.jpg",
+      "createdAt": "2026-05-20T04:31:09.822Z"
+    },
+    {
+      "id": "background-mpdkdwjv-d77mpf",
+      "name": "16_德令哈柏树山+海子纪念馆_20250731.JPG",
+      "url": "/backgrounds/background-mpdkdwjv-d77mpf.jpg",
+      "createdAt": "2026-05-20T04:31:09.837Z"
+    },
+    {
+      "id": "background-mpdkdwkd-qcyikg",
+      "name": "3_德令哈柏树山+海子纪念馆_20250731.JPG",
+      "url": "/backgrounds/background-mpdkdwkd-qcyikg.jpg",
+      "createdAt": "2026-05-20T04:31:09.856Z"
+    },
+    {
+      "id": "background-mpdkek25-qp4vl9",
+      "name": "14_青海湖二郎剑_20250801.JPG",
+      "url": "/backgrounds/background-mpdkek25-qp4vl9.jpg",
+      "createdAt": "2026-05-20T04:31:40.304Z"
+    },
+    {
+      "id": "background-mpdkek2m-ruc2al",
+      "name": "13_青海湖二郎剑_20250801.JPG",
+      "url": "/backgrounds/background-mpdkek2m-ruc2al.jpg",
+      "createdAt": "2026-05-20T04:31:40.320Z"
+    },
+    {
+      "id": "background-mpdkf1il-pxw0uc",
+      "name": "12_航拍+黑独山+冷湖石油基地遗址_20250728.JPG",
+      "url": "/backgrounds/background-mpdkf1il-pxw0uc.jpg",
+      "createdAt": "2026-05-20T04:32:02.930Z"
+    },
+    {
+      "id": "background-mpdkgcpt-bgbeqa",
+      "name": "18_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+      "url": "/backgrounds/background-mpdkgcpt-bgbeqa.jpg",
+      "createdAt": "2026-05-20T04:33:04.101Z"
+    },
+    {
+      "id": "background-mpdkgcqq-brvtjr",
+      "name": "23_航拍+冷湖如意湖+大柴旦翡翠湖_20250729.JPG",
+      "url": "/backgrounds/background-mpdkgcqq-brvtjr.jpg",
+      "createdAt": "2026-05-20T04:33:04.135Z"
+    },
+    {
+      "id": "background-mpdkh5sd-0f20f3",
+      "name": "13_航拍+德令哈柏树山+光电塔_20250731.JPG",
+      "url": "/backgrounds/background-mpdkh5sd-0f20f3.jpg",
+      "createdAt": "2026-05-20T04:33:41.778Z"
+    },
+    {
+      "id": "background-mpdkhqzz-nlfy91",
+      "name": "1_航拍+青海湖二郎剑_20250801.JPG",
+      "url": "/backgrounds/background-mpdkhqzz-nlfy91.jpg",
+      "createdAt": "2026-05-20T04:34:09.267Z"
+    },
+    {
+      "id": "background-mpdkiurd-u82mcv",
+      "name": "2_哈尔滨day1_20250102.JPG",
+      "url": "/backgrounds/background-mpdkiurd-u82mcv.jpg",
+      "createdAt": "2026-05-20T04:35:00.794Z"
+    },
+    {
+      "id": "background-mpdkiurp-y186uo",
+      "name": "4_哈尔滨day1_20250102.JPG",
+      "url": "/backgrounds/background-mpdkiurp-y186uo.jpg",
+      "createdAt": "2026-05-20T04:35:00.806Z"
+    },
+    {
+      "id": "background-mpdkjmwc-mzm89a",
+      "name": "1_赛里木湖day2_20241119.JPG",
+      "url": "/backgrounds/background-mpdkjmwc-mzm89a.jpg",
+      "createdAt": "2026-05-20T04:35:37.262Z"
+    },
+    {
+      "id": "background-mpdkjmww-ssld53",
+      "name": "19_赛里木湖day1_20241118.JPG",
+      "url": "/backgrounds/background-mpdkjmww-ssld53.jpg",
+      "createdAt": "2026-05-20T04:35:37.282Z"
+    },
+    {
+      "id": "background-mpdkjmxh-tzdyim",
+      "name": "21_赛里木湖day2_20241119.JPG",
+      "url": "/backgrounds/background-mpdkjmxh-tzdyim.jpg",
+      "createdAt": "2026-05-20T04:35:37.305Z"
+    },
+    {
+      "id": "background-mpdkjmy7-20i373",
+      "name": "32_赛里木湖day1_20241118.JPG",
+      "url": "/backgrounds/background-mpdkjmy7-20i373.jpg",
+      "createdAt": "2026-05-20T04:35:37.329Z"
+    },
+    {
+      "id": "background-mpdkju9w-2ot2nv",
+      "name": "morning-5.JPG",
+      "url": "/backgrounds/background-mpdkju9w-2ot2nv.jpg",
+      "createdAt": "2026-05-20T04:35:46.822Z"
+    }
+  ],
+  "maskOpacity": 0.1
+}
