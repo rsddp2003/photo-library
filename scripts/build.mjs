@@ -27,6 +27,7 @@ execFileSync(
     "--outfile=dist/assets/app.js",
     "--define:process.env.NODE_ENV=\"production\"",
     `--define:import.meta.env.VITE_OSS_PUBLIC_BASE_URL=${JSON.stringify(process.env.VITE_OSS_PUBLIC_BASE_URL || "")}`,
+    `--define:import.meta.env.VITE_OSS_IMAGE_PROXY_BASE_URL=${JSON.stringify(process.env.VITE_OSS_IMAGE_PROXY_BASE_URL ?? "/api/image")}`,
     `--define:import.meta.env.VITE_API_BASE_URL=${JSON.stringify(process.env.VITE_API_BASE_URL || "")}`,
   ],
   { cwd: root, stdio: "inherit" },

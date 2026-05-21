@@ -21,6 +21,8 @@ const sessionCookie = "photo_admin=1"
 const localClipPython = join(root, ".venv-clip", "bin", "python")
 const pythonBin = env.PYTHON_BIN || (existsSync(localClipPython) ? localClipPython : "python3")
 const clipSortScript = join(root, "scripts", "clip_sort_library.py")
+const ossBaseUrl = "https://photo-library-rsddp.oss-cn-guangzhou.aliyuncs.com"
+const ossReferer = "https://rsddp.top/"
 
 mkdirSync(uploadDir, { recursive: true })
 mkdirSync(backgroundDir, { recursive: true })
@@ -52,6 +54,20 @@ const types = {
   ".jpeg": "image/jpeg",
   ".png": "image/png",
   ".webp": "image/webp",
+}
+
+const imageTypes = {
+  jpg: "image/jpeg",
+  jpeg: "image/jpeg",
+  png: "image/png",
+  webp: "image/webp",
+  gif: "image/gif",
+  avif: "image/avif",
+}
+
+const imageProcesses = {
+  thumb: "image/resize,w_640/quality,q_82",
+  large: "image/resize,w_1800/quality,q_88",
 }
 
 function readLibrary() {
@@ -259,6 +275,62 @@ function serveFile(response, baseDir, pathname) {
 
   response.setHeader("Content-Type", types[extname(filePath)] || "application/octet-stream")
   createReadStream(filePath).pipe(response)
+}
+
+function normalizeImageKey(value) {
+  const rawValue = String(value || "").trim()
+  if (!rawValue) return ""
+
+  let key = rawValue
+  if (/^https?:\/\//i.test(key)) {
+    try {
+      key = new URL(key).pathname
+    } catch {
+      return ""
+    }
+  }
+
+  key = decodeURIComponent(key).replace(/^\/+/, "").replace(/^uploads\//, "photos/original/")
+  if (key.includes("..") || key.startsWith("api/")) return ""
+  return key
+}
+
+function imageContentType(key, upstreamType) {
+  if (upstreamType && !upstreamType.includes("application/octet-stream")) {
+    return upstreamType
+  }
+
+  const extension = key.split(".").pop()?.toLowerCase() || ""
+  return imageTypes[extension] || "application/octet-stream"
+}
+
+async function serveOssImage(requestUrl, response) {
+  const key = normalizeImageKey(requestUrl.searchParams.get("key") || requestUrl.searchParams.get("path"))
+  const style = String(requestUrl.searchParams.get("style") || "").trim()
+
+  if (!key) {
+    sendJson(response, { error: "Missing image key" }, 400)
+    return
+  }
+
+  const upstreamUrl = new URL(`${ossBaseUrl}/${key}`)
+  if (imageProcesses[style]) {
+    upstreamUrl.searchParams.set("x-oss-process", imageProcesses[style])
+  }
+
+  const upstream = await fetch(upstreamUrl, { headers: { Referer: ossReferer } })
+  if (!upstream.ok) {
+    sendJson(response, { error: "Unable to load image" }, upstream.status)
+    return
+  }
+
+  response.writeHead(200, {
+    "Content-Type": imageContentType(key, upstream.headers.get("content-type") || ""),
+    "Content-Disposition": "inline",
+    "Cache-Control": "public, max-age=31536000, immutable",
+    "X-Content-Type-Options": "nosniff",
+  })
+  response.end(Buffer.from(await upstream.arrayBuffer()))
 }
 
 function adminHtml() {
@@ -1067,6 +1139,11 @@ const siteServer = createServer(async (request, response) => {
     backgrounds.currentIndex = (backgrounds.currentIndex + 1) % backgrounds.images.length
     writeBackgrounds(backgrounds)
     sendJson(response, backgrounds)
+    return
+  }
+
+  if (request.method === "GET" && url.pathname === "/api/image") {
+    await serveOssImage(url, response)
     return
   }
 
