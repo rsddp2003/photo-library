@@ -194,12 +194,12 @@ export default function App() {
           ? Math.max(0, Math.min(Number(config.maskOpacity), 1))
           : 1
         const nextConfig = { intervalMinutes, currentIndex, maskOpacity, images } as BackgroundConfig
-        const signature = `${images.map((image) => image.id).join("|")}:${intervalMinutes}:${currentIndex}:${maskOpacity}`
+        const signature = `${images.map((image) => image.id).join("|")}:${intervalMinutes}:${maskOpacity}`
 
         setBackgroundConfig(nextConfig)
         if (backgroundSignatureRef.current !== signature) {
           backgroundSignatureRef.current = signature
-          setBackgroundIndex(currentIndex)
+          setBackgroundIndex(0)
         }
       })
       .catch(() => {
@@ -214,18 +214,7 @@ export default function App() {
       return
     }
 
-    fetch(`${API_BASE}/api/backgrounds/next`, { method: "POST" })
-      .then((response) => response.json())
-      .then((config: BackgroundConfig) => {
-        if (!Array.isArray(config.images) || config.images.length === 0) {
-          return
-        }
-        setBackgroundConfig(config)
-        setBackgroundIndex(Math.max(0, Math.min(Number(config.currentIndex) || 0, config.images.length - 1)))
-      })
-      .catch(() => {
-        setBackgroundIndex((index) => (index + 1) % backgroundConfig.images.length)
-      })
+    setBackgroundIndex((index) => (index + 1) % backgroundConfig.images.length)
   }, [backgroundConfig.images.length])
 
   useEffect(() => {

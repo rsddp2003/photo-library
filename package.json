@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "preview": "node scripts/server.mjs"
+    "preview": "node scripts/server.mjs",
+    "sync:backgrounds": "node scripts/sync_backgrounds_oss.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",

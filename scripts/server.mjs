@@ -1,5 +1,5 @@
 import { createServer } from "node:http"
-import { execFile } from "node:child_process"
+import { execFile, execFileSync } from "node:child_process"
 import { createReadStream, existsSync, mkdirSync, readFileSync, statSync, unlinkSync, writeFileSync } from "node:fs"
 import { extname, join, normalize } from "node:path"
 import { fileURLToPath } from "node:url"
@@ -23,6 +23,7 @@ const pythonBin = env.PYTHON_BIN || (existsSync(localClipPython) ? localClipPyth
 const clipSortScript = join(root, "scripts", "clip_sort_library.py")
 const ossBaseUrl = "https://photo-library-rsddp.oss-cn-guangzhou.aliyuncs.com"
 const ossReferer = "https://rsddp.top/"
+const ossImageProcessLimitBytes = 20 * 1024 * 1024
 
 mkdirSync(uploadDir, { recursive: true })
 mkdirSync(backgroundDir, { recursive: true })
@@ -115,8 +116,34 @@ function saveDataImage(dataUrl, mime, prefix, directory) {
   const extension = imageMime.includes("png") ? ".png" : imageMime.includes("webp") ? ".webp" : ".jpg"
   const id = safeId(prefix)
   const filename = `${id}${extension}`
-  writeFileSync(join(directory, filename), Buffer.from(match[2], "base64"))
+  const filePath = join(directory, filename)
+  writeFileSync(filePath, Buffer.from(match[2], "base64"))
+  compressLargeJpegForOss(filePath)
   return { id, filename }
+}
+
+function compressLargeJpegForOss(filePath) {
+  if (!/\.jpe?g$/i.test(filePath) || !existsSync(filePath) || statSync(filePath).size <= ossImageProcessLimitBytes) {
+    return
+  }
+
+  if (!existsSync("/usr/bin/sips")) {
+    return
+  }
+
+  const tempPath = `${filePath}.oss-tmp.jpg`
+  try {
+    execFileSync("/usr/bin/sips", ["-s", "format", "jpeg", "-s", "formatOptions", "60", filePath, "--out", tempPath], {
+      stdio: "ignore",
+    })
+    if (existsSync(tempPath) && statSync(tempPath).size < statSync(filePath).size) {
+      writeFileSync(filePath, readFileSync(tempPath))
+    }
+  } finally {
+    if (existsSync(tempPath)) {
+      unlinkSync(tempPath)
+    }
+  }
 }
 
 function normalizeLibrary(library) {
